@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFord</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="navLinks" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">COURSES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="headerContent">
+            <h2>Welcome to the EduFord University</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum assumenda fugit maxime corporis nostrum culpa nihil incidunt? Sint, ullam suscipit blanditiis nihil ut vero voluptatibus cumque at deleniti nisi inventore velit ex maiores modi est.</p>
+            <a href="" class="headerBtn">Vist us to know more</a>
+        </div>
+    </section>
+
+    <!-- Course section -->
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, officiis?</p>
+
+        <div class="row">
+            <div class="courseCol">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat maxime ad nam laboriosam explicabo doloremque non nulla molestias dolorum iusto!</p>
+            </div>
+            <div class="courseCol">
+                <h3>Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic id libero non maiores illum laborum fuga perferendis fugiat quam doloribus?</p>
+            </div>
+            <div class="courseCol">
+                <h3>Masters</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis dolorem beatae vel vero accusantium quis expedita nobis, culpa temporibus earum!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Section -->
+
+    <div class="campus">
+        <h1>Our Campus and Facilities</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, vero!</p>
+
+        <div class="row">
+            <div class="campusCol">
+                <img src="images/library.png" alt="Library">
+                <div class="layer">
+                    <h3>LIBRARY</h3>
+                </div>
+            </div>
+            <div class="campusCol">
+                <img src="images/cafeteria.png" alt="cafeteria">
+                <div class="layer">
+                    <h3>CAFETERIA</h3>
+                </div>
+            </div>
+            <div class="campusCol">
+                <img src="images/basketball.png" alt="basketball">
+                <div class="layer">
+                    <h3>BASKETBALL</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+
+    <section class="testimonials">
+        <h1>What our student says</h1>
+
+        <div class="row">
+            <div class="testimonialCol">
+                <img src="images/user1.jpg" alt="User">
+                <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci inventore amet consequatur voluptatem odit nobis repudiandae, at dolores maiores numquam illum suscipit harum voluptate et natus perferendis ab qui omnis minima dolorem tempora quae. Labore perspiciatis aperiam velit eveniet accusamus.    
+                    </p>
+                    <h3>Lara Croft</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonialCol">
+                <img src="images/user2.jpg" alt="User">
+                <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci inventore amet consequatur voluptatem odit nobis repudiandae, at dolores maiores numquam illum suscipit harum voluptate et natus perferendis ab qui omnis minima dolorem tempora quae. Labore perspiciatis aperiam velit eveniet accusamus.    
+                    </p>
+                    <h3>James Bond</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h3>Made by <i class="fa fa-heart"></i> from Vaibhav</h3>
+    </footer>
+
+
+<!-- Script for toggling menu -->
+    <script>
+        const navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0px";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
